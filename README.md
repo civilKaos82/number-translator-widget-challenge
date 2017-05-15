@@ -55,6 +55,7 @@ Follow the process that was detailed today.
   * Ensure CSS concerns are in a CSS file
   * Structural work is done in the HTML file
   * Your JavaScript file shouldn't be doing any real work (yet...)
+3. Create a "Widget"
 
 ### Release 2: Build Your Widget
 
@@ -63,6 +64,13 @@ Build a Widget class that "takes over" management of a piece of the DOM.
 **HINT**: Create a `state` object that updates with each keyUp event. When
 "RETURN" is struck, trigger `render` where the text field's content updates to
 a binary representation of the number.
+
+**HINT**: You _do not_ need to create a submit button here. That's actually 
+making things harder! Type in a decimal number, strike enter, the decimal number
+should go away and be replaced by a binary representation. That's it. Another
+programmer virtue is learning not to make things harder than they have to be. ;)
+Another important point is that a submit button _is not in the mockup_. If your
+client meant for it to be there _they would have put it in there_.
 
 ## Stretch Releases
 
