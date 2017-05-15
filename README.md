@@ -55,7 +55,6 @@ Follow the process that was detailed today.
   * Ensure CSS concerns are in a CSS file
   * Structural work is done in the HTML file
   * Your JavaScript file shouldn't be doing any real work (yet...)
-3. Create a "Widget"
 
 ### Release 2: Build Your Widget
 
